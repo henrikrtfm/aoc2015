@@ -2,7 +2,7 @@ class advent1(data: String){
 
     private val floorplan = data
     fun solvePart1(): Int {
-        var floor: Int = 0
+        var floor = 0
         for (f in floorplan){
             if (f == '('){
                 floor += 1
@@ -14,7 +14,7 @@ class advent1(data: String){
         return floor
     }
     fun solvePart2(): Int {
-        var floor: Int = 0
+        var floor = 0
         for ((index, f) in floorplan.withIndex()){
             if (f == '('){
                 floor += 1
