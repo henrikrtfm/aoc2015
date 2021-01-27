@@ -16,12 +16,21 @@ fun main() {
     println(p2)
     **/
 
-    /** Advent day 3      **/
+    /** Advent day 3
     val input = resourceAsString("src/main/resources/advent3.txt")
     val day3 = Advent3(input)
     val p1 = day3.solvePart1()
     val p2 = day3.solvePart2()
     println(p1)
+    println(p2)
+    **/
+
+    /** Advent day 4     **/
+    val input = "iwrupvqb"
+    val day4 = Advent4(input)
+    //val p1 = day4.solvePart1()
+    val p2 = day4.solvePart2()
+    //println(p1)
     println(p2)
 
 }
