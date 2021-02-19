@@ -42,12 +42,20 @@ fun main() {
     println(p1)
    println(p2) **/
 
-    /** Advent day 6 **/
+    /** Advent day 6
     val input = resourceAsList("src/main/resources/advent6.txt")
     val day6 = Advent6(input)
     //val p1 = day6.solvePart1()
     val p2 = day6.solvePart2()
     //println(p1)
-    println(p2)
+    println(p2) **/
+
+    /** Advent day 7 **/
+    val input = resourceAsList("src/main/resources/advent7.txt")
+    val day7 = Advent7(input)
+    val p1 = day7.solvePart1()
+    //val p2 = day6.solvePart2()
+    println(p1)
+    //println(p2)
 
 }
